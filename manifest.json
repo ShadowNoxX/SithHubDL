@@ -1,0 +1,14 @@
+{
+    "name": "SithHub DL",
+    "description": "Allows you to download Youtube Videos",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["downloads", "tabs"],
+    "host_permissions": [
+        "http://www.youtube.com/"
+      ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    }
+  }

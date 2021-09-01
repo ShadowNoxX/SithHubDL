@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+        body {
+            background-color: #151515;
+            font-family: 'Source Sans Pro', sans-serif;
+            overflow: hidden;
+            color:  #d4d4d4;
+        }
+        h1 {
+            text-align: center;
+            color: #DF0000;
+        }
+        .noselect {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        #btn {
+            display:inline-block;
+            margin-top: 10px;
+            width: 100%;
+            padding:0.28em 2em;
+            background-color: #DF0000;
+            border-radius:0.12em;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-family:'Source Sans Pro', sans-serif;
+            font-weight:300;
+            color:#ffff;
+            text-align:center;
+            transition: all 0.2s;
+        }
+        #btn:hover{
+            cursor: pointer;
+            color:#ffff;
+            background-color:#e92424;
+        }
+    </style>
+</head>
+<body class="noselect">
+    <h1>SithHub</h1>
+    <a class="vd" id="btn">MP4</a>
+    <a class="au" id="btn">MP3</a>
+    <div class="message"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
